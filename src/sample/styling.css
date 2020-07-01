@@ -1,0 +1,99 @@
+.root {
+   -fx-background-color: white;
+   -fx-font-size: 14px;
+   -fx-font-family: "Verdana";
+}
+
+.overskrift {
+    -fx-font-size: 20px;
+    -fx-background-color: #222831;
+    -fx-text-fill: white;
+    -fx-padding: 20px;
+    -fx-pref-width: 900px;
+    -fx-max-width: 3000px;
+}
+
+.overskrift2 {
+     -fx-font-size: 18px;
+     -fx-text-fill: #222831;
+}
+
+.btn {
+    -fx-background-color: #222831;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-pref-width: 200px;
+    -fx-text-align: center;
+}
+
+.btn-tilbake {
+    -fx-background-color: #222831;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-text-align: center;
+
+}
+
+.btn-tilbake:hover {
+    -fx-background-color: #30475e;
+}
+
+.btn:hover {
+    -fx-background-color: #30475e;
+}
+
+.tx {
+    -fx-border-color: #222831;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+}
+
+.feilmelding {
+    -fx-text-fill: red;
+    -fx-font-size: 13px;
+}
+
+.br {
+    -fx-font-size: 18px;
+    -fx-text-fill: #222831;
+    -fx-padding: 20px;
+}
+
+.bg-kurs {
+    -fx-background-color: #30475e;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-pref-width: 300px;
+
+}
+.br-tekst {
+    -fx-text-fill: white;
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #222831;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER_LEFT;
+}
+
+.bg-test {
+    -fx-background-color: #30475e;
+    -fx-text-fill: white;
+    -fx-border-radius: 8px;
+}
+
+.hvit {
+    -fx-text-fill: white;
+}
+
+.BorderPane:hover {
+    cursor: normal;
+}
